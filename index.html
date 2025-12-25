@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La piccola ombra – fumetto animato (prototipo)</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="top-bar">
+      <div class="logo">La piccola ombra</div>
+      <div class="tagline">Fumetto animato – prototipo</div>
+    </header>
+
+    <main class="content">
+      <section class="panel-wrapper">
+        <div class="panel" id="panel">
+          <img src="assets/vignetta.png" alt="Vignetta: Irina in ascolto" class="vignetta" />
+          <div class="panel-overlay"></div>
+          <div class="caption" id="caption">
+            <p>
+              La telefonata arrivò a Irina come un colpo dato con garbo.
+              L’uomo parlava piano, ma la frase non poteva essere detta piano:
+              «…sono tutti morti.»
+            </p>
+          </div>
+          <button class="play-hint" type="button">
+            ▶ Clicca (o tocca) per far parlare la tavola
+          </button>
+        </div>
+
+        <p class="helper-text">
+          Questo è un <strong>prototipo</strong>: una sola tavola. Su GitHub Pages potrai
+          duplicarla per ogni immagine del fumetto, cambiando audio e testo.
+        </p>
+      </section>
+    </main>
+  </div>
+
+  <audio id="voice" src="assets/voce-placeholder.wav"></audio>
+  <script src="js/script.js"></script>
+</body>
+</html>
